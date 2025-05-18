@@ -1,4 +1,4 @@
-// app/components/LottieAnimation.tsx
+
 "use client";
 
 import { useLottie } from "lottie-react";

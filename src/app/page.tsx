@@ -1,20 +1,27 @@
-import { div } from "framer-motion/client";
-import Image from "next/image";
-import Link from "next/link";
-import LottieAnimation from "./components/Lottie";
+'use client';
+
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+
+// 🔄 Importa dinámicamente el componente
+const LottieAnimation = dynamic(() => import('./components/Lottie'), {
+  ssr: false, // ⚠️ Desactiva la renderización en el servidor
+});
 
 export default function Home() {
   return (
-    
     <>
-     <LottieAnimation/>
-    <div className="text-center font-sans">
-    <h1>Estamos construyendo lo mejor para ti 🏗️🚧</h1>
-    <h2>Mientras esperas, mira estos posts que te encantarán:</h2>
-    <Link href={"/posts"}>
-    <button className="p-2 m-2 rounded-2xl cursor-pointer hover:bg-amber-200 bg-blue-200 text-black">Ir ahora</button>
-    </Link>
-    </div>
+      <LottieAnimation />
+      <div className="text-center font-sans">
+        <h1>Estamos construyendo lo mejor para ti 🏗️🚧</h1>
+        <h2>Mientras esperas, mira estos posts que te encantarán:</h2>
+        <Link href="/posts">
+          <button className="p-2 m-2 rounded-2xl cursor-pointer hover:bg-amber-200 bg-blue-200 text-black">
+            Ir ahora
+          </button>
+        </Link>
+      </div>
     </>
   );
 }
