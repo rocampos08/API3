@@ -1,68 +1,60 @@
 {
   "..\\node_modules\\@heroui\\accordion\\dist\\chunk-F3X3YELH.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\accordion\\dist\\chunk-F3X3YELH.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\calendar\\dist\\chunk-XPMFI4TR.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\calendar\\dist\\chunk-XPMFI4TR.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\modal\\dist\\chunk-UKDXCIYN.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\modal\\dist\\chunk-UKDXCIYN.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\navbar\\dist\\chunk-63OA3RRZ.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\navbar\\dist\\chunk-63OA3RRZ.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\navbar\\dist\\chunk-GGZP2VLD.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\navbar\\dist\\chunk-GGZP2VLD.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\popover\\dist\\chunk-REV5W46G.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\popover\\dist\\chunk-REV5W46G.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\popover\\dist\\chunk-XPO5AVRM.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\popover\\dist\\chunk-XPO5AVRM.mjs -> @heroui/dom-animation",
     "files": []
   },
   "..\\node_modules\\@heroui\\ripple\\dist\\chunk-QHRCZSEO.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\ripple\\dist\\chunk-QHRCZSEO.mjs -> @heroui/dom-animation",
     "files": [
-      "static/chunks/444.07eb10b9eaf955e2.js"
+      "static/chunks/_app-pages-browser_node_modules_heroui_dom-animation_dist_index_mjs.js"
     ]
   },
   "..\\node_modules\\@heroui\\toast\\dist\\chunk-CF6MWS7K.mjs -> ./src-UW24ZMRV.mjs": {
-    "id": null,
+    "id": "..\\node_modules\\@heroui\\toast\\dist\\chunk-CF6MWS7K.mjs -> ./src-UW24ZMRV.mjs",
     "files": []
   },
   "..\\node_modules\\@heroui\\toast\\dist\\chunk-QACDA32D.mjs -> framer-motion": {
-    "id": null,
+    "id": "..\\node_modules\\@heroui\\toast\\dist\\chunk-QACDA32D.mjs -> framer-motion",
     "files": []
   },
   "..\\node_modules\\@heroui\\tooltip\\dist\\chunk-CSXHODZI.mjs -> @heroui/dom-animation": {
-    "id": 6444,
+    "id": "..\\node_modules\\@heroui\\tooltip\\dist\\chunk-CSXHODZI.mjs -> @heroui/dom-animation",
     "files": []
   },
-  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
-    "id": 472,
+  "..\\node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
+    "id": "..\\node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
     "files": [
-      "static/chunks/472.a3826d29d6854395.js"
-    ]
-  },
-  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
-    "id": 9341,
-    "files": [
-      "static/chunks/341.df3329d77a5faa19.js"
+      "static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js"
     ]
   },
   "app\\page.tsx -> ./components/Lottie": {
-    "id": 615,
+    "id": "app\\page.tsx -> ./components/Lottie",
     "files": [
-      "static/chunks/dc112a36.582c3f567b4ee6f3.js",
-      "static/chunks/770.c8043d62f80f3a93.js",
-      "static/chunks/615.a8a8fdacdc50ab1b.js"
+      "static/chunks/_app-pages-browser_src_app_components_Lottie_tsx.js"
     ]
   }
 }
