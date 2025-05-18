@@ -4,9 +4,11 @@ import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-// 🔄 Importa dinámicamente el componente
+
+
+
 const LottieAnimation = dynamic(() => import('./components/Lottie'), {
-  ssr: false, // ⚠️ Desactiva la renderización en el servidor
+  ssr: false, 
 });
 
 export default function Home() {
