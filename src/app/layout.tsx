@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Lato } from 'next/font/google'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,6 +12,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['400', '700'], // puedes especificar los pesos que necesitas
+  variable: '--font-lato', // opcional: para usar como variable CSS
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={lato.className}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
