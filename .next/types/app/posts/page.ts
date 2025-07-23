@@ -1,4 +1,4 @@
-// File: C:\Users\MINEDUCYT\Desktop\API\api-nextjs\src\app\posts\page.tsx
+// File: C:\Users\MINEDUCYT\Desktop\api\API3\src\app\posts\page.tsx
 import * as entry from '../../../../src/app/posts/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

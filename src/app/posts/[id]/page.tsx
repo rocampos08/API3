@@ -44,7 +44,6 @@ export default function Post({ params }: { params: Promise<{ id: string }> }) {
     return (
     <div className="h-screen flex justify-center items-center bg-white">
       <div className="flex flex-col items-center justify-center">
-        <div className="animate-spin p-4 rounded-full h-20 w-20 border-t-4 border-blue-500 mb-4"></div>
         <h1 className="text-black text-center font-sans text-2xl animate-pulse">Cargando post</h1>
       </div>
     </div>

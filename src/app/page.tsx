@@ -1,29 +1,17 @@
 'use client';
 
-import dynamic from 'next/dynamic';
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
-
-
-
-const LottieAnimation = dynamic(() => import('./components/Lottie'), {
-  ssr: false, 
-});
 
 export default function Home() {
   return (
-    <>
-      <LottieAnimation />
-      <div className="text-center font-sans">
-        <h1>Estamos construyendo lo mejor para ti 🏗️🚧</h1>
-        <h2>Mientras esperas, mira estos posts que te encantarán:</h2>
-        <Link href="/posts">
-          <button className="p-2 m-2 rounded-2xl cursor-pointer hover:bg-amber-200 bg-blue-200 text-black">
-            Ir ahora
-          </button>
-        </Link>
-      </div>
-    </>
+    <div className="flex flex-col items-center justify-center min-h-screen text-center font-sans p-4">
+      <h1 className="text-2xl mb-2">¡Algo increíble está en camino! 🚀</h1>
+      <h2 className="text-lg mb-4">Estos posts te encantarán:</h2>
+      <Link href="/posts">
+        <button className="p-2 m-2 rounded-2xl cursor-pointer hover:bg-amber-200 bg-blue-200 text-black">
+          Ir a los posts
+        </button>
+      </Link>
+    </div>
   );
 }
