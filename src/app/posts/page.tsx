@@ -41,7 +41,7 @@ export default function Posts() {
 
   return (
     <div className="p-4 max-w-3xl mx-auto font-sans">
-      <h1 className="text-2xl font-bold text-center mb-6">Lista de Posts</h1>
+      <h1 className="text-2xl font-bold text-center mb-6">Lista de todos los posts</h1>
       <ul className="space-y-6">
         {posts.map((post) => (
           <li key={post.id} className="bg-white p-4 rounded-md shadow-sm border">
