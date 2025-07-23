@@ -14,3 +14,4 @@ Este es un proyecto web construido con **Next.js 14**, que utiliza el **App Rout
 
 ---
 
+# API-info
